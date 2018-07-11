@@ -1,0 +1,22 @@
+@media screen and (max-width:1160px) {
+	
+}
+@media screen and (max-width:960px) {
+	#galeria img{ width: 33.333%; }
+}
+@media screen and (max-width:760px) {
+	#galeria img{ width: 50%; }
+	#agenda .midle{ flex-direction: column; justify-content: center; padding: 50px 20px;}
+	#agenda .datas, #agenda .temas{ margin: 20px 0; width: 100%;}
+	#agenda .datas li{ padding: 10px 0; }
+	#agenda .datas a{ font-size: 1.4rem; padding-right: 20px; justify-content: center;}
+	#agenda .events{ flex-direction: column;}
+	#agenda .events .tabs{ width: 100%; display: flex; flex-direction: row; height: auto;}
+	#agenda .events .tabs li a{
+		justify-content: center;
+	}
+}
+@media screen and (max-width:560px) {
+	#galeria{ display: none; }
+	#galeria img{ width: 100%; }
+}

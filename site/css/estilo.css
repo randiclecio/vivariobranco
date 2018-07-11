@@ -1,0 +1,66 @@
+/*@font-face {
+	font-family: Roboto-Regular;
+	src: url('./font/Roboto-Regular.woff2');
+}
+
+*:not(i){
+	 font-family: Roboto-Regular; 
+}*/
+* {
+	border: none;
+	outline: none;
+	margin: 0;
+	padding: 0;
+}
+url{ display: none;}
+#flow,
+body,
+html {
+	height: 100%
+}
+
+#flow,
+.midler,
+h1.titulo {
+	width: 100%;
+	display: flex
+}
+
+html {
+	position: relative
+}
+
+body {
+	background: #FFF;
+	margin: 0
+}
+
+#flow {
+	overflow: auto;
+	justify-content: space-between;
+	flex-direction: column
+}
+
+.midle{
+	max-width: 1160px;
+	width: 100%;
+	min-height: 30px;
+	height: auto;
+	margin: 0 auto;
+	transition: .2s;
+	display: flex;
+}
+
+deb {
+	position: fixed;
+	bottom: 0;
+	right: 50px;
+	line-height: 20px;
+	background: #80d3ff;
+	padding: 0 15px;
+	z-index: 1000;
+	color: #000;
+	font-size: .9rem;
+	box-shadow: 2px 2px 3px rgba(0, 0, 0, .3);
+	opacity: .6
+}

@@ -1,0 +1,14 @@
+#galeria{
+	/* min-height: 550px; */
+	background: #000;
+}
+#galeria{
+	display: flex;
+	flex-wrap: wrap;
+}
+#galeria img{
+	transition: .2s;
+	width: 25%;
+	object-fit: cover;
+	margin: 0;
+}
